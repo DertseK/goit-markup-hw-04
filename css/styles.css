@@ -77,9 +77,9 @@ ul {
   color: #2e2f42;
   padding-top: 24px;
   padding-bottom: 24px;
-
-  /*
-    color: #434455; */
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .logolink:hover {
   color: #404bbf;
@@ -322,7 +322,15 @@ ul {
   text-align: left;
 }
 .head {
+  background-color: #ffffff;
   border-bottom: 1px solid #e7e9fc;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
 }
 .head .container {
   display: flex;
