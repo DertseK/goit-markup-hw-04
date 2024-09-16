@@ -81,6 +81,24 @@ ul {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.std {
+  position: relative;
+  color: #404bbf;
+}
+.std::after {
+  display: block;
+  background-color: #404bbf;
+  margin-right: auto;
+  margin-left: auto;
+  content: '';
+  position: absolute;
+  width: 48px;
+  height: 4px;
+  padding-bottom: 0;
+  border-radius: 2px;
+  left: 0;
+  bottom: -1px;
+}
 .logolink:hover {
   color: #404bbf;
 }
