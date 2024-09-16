@@ -127,23 +127,20 @@ ul {
   color: #404bbf;
 }
 .esfyb {
-  /*background-color: #2E2F42;
-    font-family: "Roboto",
-        sans-serif;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    color: #4d5ae5;
-     */
   background-color: #2e2f42;
-  max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  max-width: 1440px;
   padding: 188px 0 188px;
-  /*  padding-top: 188px;
-  padding-bottom: 188px; */
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/backgr1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .esfyb .container {
   max-width: 1158px;
