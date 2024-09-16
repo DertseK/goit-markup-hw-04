@@ -336,6 +336,29 @@ ul {
   letter-spacing: 0.02em;
   text-align: left;
 }
+.socl {
+  background-color: #4d5ae5;
+  fill: #f4f4fd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.socl:hover,
+.socl:focus {
+  background-color: #404bbf;
+}
+.otmsoc {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 8px 16px 0;
+}
 .head {
   background-color: #ffffff;
   border-bottom: 1px solid #e7e9fc;
