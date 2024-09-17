@@ -436,3 +436,14 @@ ul {
   display: inline-block;
   margin-bottom: 16px;
 }
+.footsoclic:hover,
+.footsoclic:focus {
+  background-color: #31d0aa;
+}
+.footsoc {
+}
+.foottxtdiv {
+  display: flex;
+  align-items: baseline;
+  margin: 279 0 279;
+}
