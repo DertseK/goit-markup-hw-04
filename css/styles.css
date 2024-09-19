@@ -463,6 +463,9 @@ ul {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.some:hover .otmslicovp {
+  transform: translateY(0%);
+}
 .menu {
   display: flex;
   gap: 40px;
