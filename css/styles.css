@@ -362,14 +362,10 @@ ul {
   background-color: #404bbf;
 }
 .otmsoc {
-  /*display: flex;
-  justify-content: center;
-  gap: 24px;
-  margin: 8px 16px 0; */
   display: flex;
   justify-content: center;
-  margin: 0;
-  gap: 16px;
+  gap: 24px;
+  margin: 8px 16px 0;
 }
 .head {
   background-color: #ffffff;
