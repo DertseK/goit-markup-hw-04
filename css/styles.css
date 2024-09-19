@@ -429,6 +429,9 @@ ul {
 .otmslicov:hover .otmslicov2 {
   transform: translateY(0%);
 }
+.otmslicov:hover .otmslicov2 {
+  transform: translateY(0%);
+}
 .otmslicov2 {
   position: absolute;
   top: 0;
@@ -442,6 +445,12 @@ ul {
   transition-property: transform;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.otmslicovp {
+  color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding: 40px 32px;
 }
 .menu {
   display: flex;
