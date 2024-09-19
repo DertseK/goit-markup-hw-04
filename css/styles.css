@@ -422,6 +422,13 @@ ul {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.otmslicov {
+  position: relative;
+  overflow: hidden;
+}
+.otmslicov:hover .otmslicov2 {
+  transform: translateY(0%);
+}
 .menu {
   display: flex;
   gap: 40px;
